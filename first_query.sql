@@ -16,5 +16,7 @@ SELECT
   lead_id
 , count
 FROM blah
+-- changes below
+WHERE count > 2
 
 
